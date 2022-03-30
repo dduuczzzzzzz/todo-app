@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans';
+    font-size: 20px;
+    color: rgb(59, 54, 54);
 }
 
 body {
@@ -16,6 +18,78 @@ body {
     max-width: 400px;
     width: 100%;
     background-color: white;
+    background: url('https://th.bing.com/th/id/R.87e95202c096d9d2fe018366876b2e59?rik=pwSQ4LC4yIIlyw&riu=http%3a%2f%2fwww.codeproject.com%2fKB%2fmobile%2f439871%2fBackgroundImage.png&ehk=f6ej92s5XdVREy%2bkVyAzAPqOOU%2b7LPH003y%2b0U2hJiw%3d&risl=&pid=ImgRaw&r=0');
     border-radius: 10px;
     padding: 10px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border: 2px solid #ccc;
+    font-size: 18px;
+    border-radius: 20px; 
+    margin: 20px 20px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+}
+
+.head h1, input {
+    align-self: center;
+} 
+
+.Tasks .todoList {
+    
+}
+
+.todoList li {
+    list-style: none;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0 15px;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.todoList li span {
+    position: absolute;
+    right: -45px;
+    color: #fff;
+    background: #729dc5;
+    width: 45px;
+    text-align: center;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.todoList li:hover span {
+    right: 0px;
+}
+
+
+
+.Tasks button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: #8e49e8;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 30px; 
+}
+
+.Tasks button:hover {
+    background: #9571c4;
 }
