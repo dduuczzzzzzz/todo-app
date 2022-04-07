@@ -33,9 +33,20 @@
                 <li><input type="checkbox" id="check5" value="check-55" checked disabled><label for="check5">Lab deadline on Friday</label> <span><i class="fa-solid fa-trash-can"></i></span></li>
                 <li><input type="checkbox" id="check6"><label for="check6">Do homework</label> <span><i class="fa-solid fa-trash-can"></i></span> </li>
             </ul>
-            <button><i class="fa-solid fa-plus"></i></button>
+            <button class="first-button" onclick="togglePopup()"><i class="fa-solid fa-plus"></i></button>
+        </div>
+
+        <div class="popup" id="popup-1">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopup()"><i class="fa-solid fa-angles-left"></i></div>
+              
+                <h1>Add Tasks</h1> 
+                <div class="input-field"><input placeholder="Task name" class="validate"></div>
+                <div class="input-field"><input placeholder="Descriptions" class="validate"></div>
+                    <button class="second-button" onclick="togglePopup()">Add</button>
+            </div>
         </div>
     </div>
-    
 </body>
+<script src="script.js"></script>
 </html>
