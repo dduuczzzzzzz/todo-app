@@ -27,14 +27,21 @@
             <h2>Tasks</h2>
             <ul class="todoList">
                 <li><input type="checkbox" id="check1"><label for="check1">Do the housework</label> <span><i class="fa-solid fa-trash-can"></i></span> </li>
-                <li><input type="checkbox" id="check2" value="check-22" checked disabled><label for="check2">Wash dishes</label> <span><i class="fa-solid fa-trash-can"></i></span> </li>
                 <li><input type="checkbox" id="check3"><label for="check3">Clean the house</label> <span><i class="fa-solid fa-trash-can"></i></span> </li>
                 <li><input type="checkbox" id="check4"><label for="check4">Fix the bike</label> <span><i class="fa-solid fa-trash-can"></i></span> </li>
-                <li><input type="checkbox" id="check5" value="check-55" checked disabled><label for="check5">Lab deadline on Friday</label> <span><i class="fa-solid fa-trash-can"></i></span></li>
                 <li><input type="checkbox" id="check6"><label for="check6">Do homework</label> <span><i class="fa-solid fa-trash-can"></i></span> </li>
             </ul>
-            <button class="first-button" onclick="togglePopup()"><i class="fa-solid fa-plus"></i></button>
         </div>
+
+        <div class="Finish-Tasks">
+            <h2>Finished Tasks</h2>
+            <ul class="finish-todoList">             
+                <li><input type="checkbox" id="check2" value="check-22" checked disabled><label for="check2">Wash dishes</label> <span><i class="fa-solid fa-trash-can"></i></span> </li>
+                <li><input type="checkbox" id="check5" value="check-55" checked disabled><label for="check5">Lab deadline on Friday</label> <span><i class="fa-solid fa-trash-can"></i></span></li> 
+            </ul>           
+        </div>
+
+        <button class="first-button" onclick="togglePopup()"><i class="fa-solid fa-plus"></i></button>
 
         <div class="popup" id="popup-1">
             <div class="content">

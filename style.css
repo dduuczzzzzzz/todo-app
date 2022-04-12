@@ -88,12 +88,12 @@ input[type="text"] {
 /*******/
 
 
-.Tasks {
+.Tasks, .Finish-Tasks {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.todoList li {
+.todoList li, .finish-todoList li {
     position: relative;
     list-style: none;
     margin-bottom: 8px;
@@ -107,11 +107,11 @@ input[type="text"] {
     word-wrap: break-word;
   }
   
-  .todoList li:hover {
+  .todoList li:hover, .finish-todoList li:hover {
       background-color: #d6e3f3;
   }
   
-  .todoList li span {
+  .todoList li span, .finish-todoList li span {
       position: absolute;
       right: -45px;
       top: 50%;
@@ -126,7 +126,7 @@ input[type="text"] {
       transition: all 0.3s ease;
   }
   
-  .todoList li:hover span {
+  .todoList li:hover span, .finish-todoList li:hover span{
       right: 0px;
   }
   input[type=checkbox] {
@@ -170,7 +170,7 @@ input[type="text"] {
 
 /******/
 
-.Tasks button {
+.first-button {
     width: 60px;
     height: 60px;
     border: none;
@@ -182,13 +182,14 @@ input[type="text"] {
     left: 80%;
     position: relative;
     transition: 0.3s;
+    margin-bottom: 10px;
 }
 
-.Tasks button i {
+.first-button i {
     color: #fff;
 }
 
-.Tasks button:hover {
+.first-button:hover {
     background: #2995a8;
 }
 
