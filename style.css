@@ -12,7 +12,7 @@ h2 {
 }
 
 body {
-    height: 1100px;
+    height: 1091px;
     width: 100%;
     background: linear-gradient(to bottom, #68eacc 0%, #497be8) 100%;
 }
@@ -88,10 +88,15 @@ input[type="text"] {
 /*******/
 
 
-.Tasks, .Finish-Tasks {
-    margin-top: 20px;
+.Tasks, .Finish-Tasks {  
     margin-bottom: 20px;
+    height: 210px;
+    overflow-y: auto;
 }
+
+::-webkit-scrollbar {
+    width: 0px; 
+}    
 
 .todoList li, .finish-todoList li {
     position: relative;
@@ -235,6 +240,16 @@ input[type="text"] {
 }
    
 .input-field .validate {
+   padding: 10px;
+   font-size: 16px;
+   border-radius: 10px;
+   border: none;
+   margin-bottom: 15px;
+   color: #bfc0c0;
+   outline: none;
+}
+
+.input-field1 .validate{
    padding: 10px;
    font-size: 16px;
    border-radius: 10px;
