@@ -8,7 +8,7 @@
 }
 
 h2 {
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 body {
@@ -112,11 +112,11 @@ input[type="text"] {
     word-wrap: break-word;
   }
   
-  .todoList li:hover, .finish-todoList li:hover {
+.todoList li:hover, .finish-todoList li:hover {
       background-color: #d6e3f3;
-  }
+}
   
-  .todoList li span, .finish-todoList li span {
+.todoList li span, .finish-todoList li span {
       position: absolute;
       right: -45px;
       top: 50%;
@@ -129,16 +129,17 @@ input[type="text"] {
       padding: 15px 15px;
       cursor: pointer;
       transition: all 0.3s ease;
-  }
+}
   
-  .todoList li:hover span, .finish-todoList li:hover span{
+.todoList li:hover span, .finish-todoList li:hover span{
       right: 0px;
-  }
-  input[type=checkbox] {
-      display: none;
-  }
+}
   
-  input[type=checkbox]+label:before {
+input[type=checkbox] {
+      display: none;
+}
+  
+input[type=checkbox]+label:before {
       content: "\2714";
       border: 0.1em solid #000;
       border-radius: 0.5em;
@@ -150,28 +151,28 @@ input[type="text"] {
       margin-right: 10px;
       color: transparent;
       transition: .2s;
-  }
+}
   
-  input[type=checkbox]+label:active:before {
+input[type=checkbox]+label:active:before {
       transform: scale(0);
-  }
+}
   
-  input[type=checkbox]:checked+label:before {
+input[type=checkbox]:checked+label:before {
       background-color: MediumSeaGreen;
       border-color: MediumSeaGreen;
       color: #fff;
-  }
+}
   
-  input[type=checkbox]:disabled+label:before {
+input[type=checkbox]:disabled+label:before {
       transform: scale(1);
       border-color: #aaa;
-  }
+}
   
-  input[type=checkbox]:checked:disabled+label:before {
+input[type=checkbox]:checked:disabled+label:before {
       transform: scale(1);
       background-color: #bfb;
       border-color: #bfb;
-  }
+}
 
 /******/
 
