@@ -12,7 +12,7 @@ h2 {
 }
 
 body {
-    height: 1091px;
+    height: 100%;
     width: 100%;
     background: linear-gradient(to bottom, #68eacc 0%, #497be8) 100%;
 }
@@ -276,7 +276,44 @@ input[type=checkbox]:checked:disabled+label:before {
    outline: none;
 }
    
+@media screen and (min-width: 667px) {
+    .overview {
+        width: 150%;
+        max-width: 60%;
+        height: 100%;
+    }
+
+    input[type="text"] {
+        width: 75%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .first-button {
+        position: none;
+        align-self: center;
+        left: 48%;
+    }
+
+    .todoList li, .finish-todoList li {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+}
    
-   
+
+@media screen and (min-width: 900px) {
+    .popup .content {
+        width: 36%;
+        height: 36%;
+    }
+
+    .second-button {
+        padding: 25px 20px;  
+        margin-top: 30px;  
+    }
+
+}
    
 

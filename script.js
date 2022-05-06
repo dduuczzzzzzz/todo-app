@@ -6,6 +6,7 @@ const inputBox = document.querySelector(".input-field1 input");
 const addBtn = document.querySelector(".second-button");
 const todoList = document.querySelector(".todoList");
 const finishedtodolist = document.querySelector(".finish-todoList");
+
 var dataString = localStorage.getItem("New Todo");
 var todo = JSON.parse(dataString); 
 
