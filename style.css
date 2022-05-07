@@ -280,7 +280,7 @@ input[type=checkbox]:checked:disabled+label:before {
     .overview {
         width: 150%;
         max-width: 60%;
-        height: 70%;
+        height: 85%;
     }
 
     input[type="text"] {
